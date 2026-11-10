@@ -1,0 +1,6 @@
+model,cv_roc_auc_mean,cv_roc_auc_std,cv_pr_auc_mean,oof_threshold_f2,oof_recall,oof_precision,seconds
+logreg,0.8121,0.0084,0.1786,0.5533,0.6417,0.1507,2.6282
+random_forest,0.9421,0.0046,0.6225,0.1426,0.7449,0.4227,116.6874
+xgboost,0.9663,0.0019,0.7844,0.4437,0.7809,0.5527,14.3864
+gradient_boosting,0.9621,0.003,0.7496,0.5504,0.7749,0.4832,54.7418
+xgboost_smote,0.9611,0.0047,0.7631,0.1969,0.7431,0.5478,15.6163
